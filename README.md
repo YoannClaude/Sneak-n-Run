@@ -1,5 +1,5 @@
 # Sneak-n-Run
-A stealth game made with Godot Engine and Fmod Studio.
+A stealth game made with Godot and Fmod Studio.
 
 I have included comments for some scripts but not all of them.
 
