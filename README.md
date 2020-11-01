@@ -1,7 +1,7 @@
 # Sneak-n-Run
 A stealth game made with Godot Engine and Fmod Studio.
 
-I have provided comments for some scripts but not all of them.
+I have included comments for some scripts but not all of them.
 
 You can find the game release on itch.io:
 https://yoannclaude.itch.io/sneaknrun
