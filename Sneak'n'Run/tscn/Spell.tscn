@@ -1,0 +1,42 @@
+[gd_scene load_steps=8 format=2]
+
+[ext_resource path="res://scripts/Spell.shader" type="Shader" id=1]
+[ext_resource path="res://scripts/Spell.gd" type="Script" id=2]
+[ext_resource path="res://art/environnement/light.png" type="Texture" id=3]
+
+[sub_resource type="ShaderMaterial" id=1]
+shader = ExtResource( 1 )
+shader_param/intensity = 0.6
+shader_param/layers = 15.0
+shader_param/speed = 0.5
+
+[sub_resource type="OpenSimplexNoise" id=2]
+
+[sub_resource type="NoiseTexture" id=3]
+width = 35
+height = 35
+noise = SubResource( 2 )
+
+[sub_resource type="CircleShape2D" id=4]
+radius = 16.7631
+
+[node name="Spell" type="KinematicBody2D" groups=[
+"spells",
+]]
+z_index = 6
+collision_layer = 4096
+script = ExtResource( 2 )
+
+[node name="Sprite" type="Sprite" parent="."]
+material = SubResource( 1 )
+texture = SubResource( 3 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+visible = false
+shape = SubResource( 4 )
+
+[node name="Light2D" type="Light2D" parent="."]
+position = Vector2( 1.78175, -1.78171 )
+scale = Vector2( 0.558031, 0.495389 )
+texture = ExtResource( 3 )
+energy = 0.5

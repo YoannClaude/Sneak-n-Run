@@ -1,0 +1,159 @@
+[gd_scene load_steps=10 format=2]
+
+[ext_resource path="res://scripts/Tuto_UI.gd" type="Script" id=1]
+[ext_resource path="res://tres/IR_Theme.tres" type="Theme" id=4]
+[ext_resource path="res://art/UI/fonts/ubuntu/Ubuntu-B.ttf" type="DynamicFontData" id=8]
+
+[sub_resource type="DynamicFont" id=1]
+size = 20
+font_data = ExtResource( 8 )
+
+[sub_resource type="DynamicFont" id=2]
+size = 20
+font_data = ExtResource( 8 )
+
+[sub_resource type="DynamicFont" id=3]
+size = 20
+font_data = ExtResource( 8 )
+
+[sub_resource type="DynamicFont" id=4]
+size = 20
+font_data = ExtResource( 8 )
+
+[sub_resource type="DynamicFont" id=5]
+size = 20
+font_data = ExtResource( 8 )
+
+[sub_resource type="DynamicFont" id=6]
+size = 20
+font_data = ExtResource( 8 )
+
+[node name="Tuto_UI" type="Control"]
+margin_right = 40.0
+margin_bottom = 40.0
+theme = ExtResource( 4 )
+script = ExtResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Move" type="Label" parent="."]
+visible = false
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = 378.0
+margin_top = 294.5
+margin_right = 542.0
+margin_bottom = 369.5
+custom_fonts/font = SubResource( 1 )
+text = "Move :
+ZQSD (Azerty)
+WASD (Qwerty)"
+align = 1
+valign = 1
+uppercase = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Run" type="Label" parent="."]
+visible = false
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = 365.0
+margin_top = 307.5
+margin_right = 555.0
+margin_bottom = 356.5
+custom_fonts/font = SubResource( 2 )
+text = "Run :
+Move + Space Bar"
+align = 1
+valign = 1
+uppercase = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Sneak" type="Label" parent="."]
+visible = false
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = 369.5
+margin_top = 307.5
+margin_right = 550.5
+margin_bottom = 356.5
+custom_fonts/font = SubResource( 3 )
+text = "Sneak :
+Move + Shift"
+align = 1
+valign = 1
+uppercase = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Shoot" type="Label" parent="."]
+visible = false
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = 375.5
+margin_top = 307.5
+margin_right = 544.5
+margin_bottom = 356.5
+custom_fonts/font = SubResource( 4 )
+text = "Shoot :
+Left-click"
+align = 1
+valign = 1
+uppercase = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Hide" type="Label" parent="."]
+visible = false
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = 377.5
+margin_top = 307.5
+margin_right = 542.5
+margin_bottom = 356.5
+custom_fonts/font = SubResource( 5 )
+text = "Hide in barrel :
+Right-click"
+align = 1
+valign = 1
+uppercase = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Toggle" type="Label" parent="."]
+visible = false
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = 348.5
+margin_top = 298.0
+margin_right = 571.5
+margin_bottom = 366.0
+custom_fonts/font = SubResource( 6 )
+text = "Toggle lever :
+Right-click"
+align = 1
+valign = 1
+uppercase = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
