@@ -7,7 +7,7 @@ You can find the game release on itch.io:
 
 https://yoannclaude.itch.io/sneaknrun
 
-Fmod libraries and banks are not included as they are not under MIT licence.
+Fmod libraries and banks are not included as they are under a commercial licence.
 You can find Fmod plugin with instructions here:
 
 https://github.com/utopia-rise/fmod-gdnative/
