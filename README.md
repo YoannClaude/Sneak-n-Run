@@ -1,23 +1,18 @@
 # Sneak-n-Run
-A stealth game made with Godot and Fmod Studio.
+A stealth game made with Love2d.
 
-I have included comments for some scripts but not all of them.
-
-You can find the game release on itch.io:
+You can download the game on itch.io:
 
 https://yoannclaude.itch.io/sneaknrun
 
-Fmod libraries and banks are not included as they are under a commercial licence.
-You can find Fmod plugin with instructions here:
+For this game I have been using this Fmod plugin:
 
-https://github.com/utopia-rise/fmod-gdnative/
+https://github.com/alessandrofama/fmod-love
 
-Shaders have been made following these tutorials:
+and the Jumper library for pathfinding:
 
-https://www.youtube.com/watch?v=QEaTsz_0o44
+https://github.com/Yonaba/Jumper
 
-https://www.youtube.com/watch?v=sZlX9o9uF7o
-
-https://www.youtube.com/watch?v=mCwsFEQI49g
+Graphic assets, audio assets and Fmod libraries are not included in this repository as they are not under a free licence.
 
 
